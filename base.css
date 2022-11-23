@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #a4a4a4;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(202, 202, 202);
+    font-size: 24px;
+    line-height: 1;
+    word-break: break-word;
+    color: #60a5a5;
+    text-align: center;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(210, 210, 210);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(210, 210, 210);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(210, 210, 210);
+    min-height: 300px;
+    padding: 1px;
+   
+
+}
+.footer {
+    background-color: rgb(210, 210, 210);
+    min-height: 150px;
+}
+fieldset{
+    margin: 15px;
+    border-radius: 10px;
+    padding-right: 5px;
+    color:#60a5a5;
+    border-color: black; }
